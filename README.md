@@ -12,7 +12,7 @@ NOTE: _Links go to code lines/blocks_.
 * Component lifecycle methods in Class components ([Countdown.jsx](/src/components/countdown/Countdown.jsx#L23-L43))
 * Passing props to child components and the subsequent consumption of those props ([Timer.jsx](/src/components/timer/Timer.jsx#L53) -> [Countdown.jsx](/src/components/countdown/Countdown.jsx#L79))
 * Dynamic rendering using `Object.entries().map()` ([Countdown.jsx](/src/components/countdown/Countdown.jsx#L84-L95))
-* Returning HTML elements from pure functions ([Timer.jsx](/src/components/timer/Timer.jsx#l9-L28))
+* Returning HTML elements from pure functions ([Timer.jsx](/src/components/timer/Timer.jsx#L9-L28))
 * Making asynchronous API requests with `useEffect()` ([Timer.jsx](/src/components/timer/Timer.jsx#L39-L46))
 * Calling an api asynchronously with `fetch()` ([DateProcessor.js](/src/api/DateProcessor.js))
 * Various common Material UI components (Header, Card, Tooltip, TextField, Button, Datepicker)
