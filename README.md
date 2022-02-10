@@ -1,10 +1,36 @@
-# Getting Started with Create React App
+# Project Countdown
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple app that explores React features using a project completion countdown timer.
+
+## Concepts Covered
+NOTE: _Links go to code lines/blocks_.
+
+### Major:
+* Importing child components into parent components ([App.js](/src/App.js#L36-L37))
+* _Functional components_ with state managed through `useState()` ([Timer.jsx](/src/components/timer/Timer.jsx#L30-L33))
+* _Class components_ with state managed through `this.state`/`setState()` ([Countdown.jsx](/src/components/countdown/Countdown.jsx#L5-L21))
+* Component lifecycle methods in Class components ([Countdown.jsx](/src/components/countdown/Countdown.jsx#L23-L43))
+* Passing props to child components and the subsequent consumption of those props ([Timer.jsx](/src/components/timer/Timer.jsx#L53) -> [Countdown.jsx](/src/components/countdown/Countdown.jsx#L79))
+* Dynamic rendering using `Object.entries().map()` ([Countdown.jsx](/src/components/countdown/Countdown.jsx#L84-L95))
+* Returning HTML elements from pure functions ([Timer.jsx](/src/components/timer/Timer.jsx#l9-L28))
+* Making asynchronous API requests with `useEffect()` ([Timer.jsx](/src/components/timer/Timer.jsx#L39-L46))
+* Calling an api asynchronously with `fetch()` ([DateProcessor.js](/src/api/DateProcessor.js))
+* Various common Material UI components (Header, Card, Tooltip, TextField, Button, Datepicker)
+
+### Minor:
+* Using `LocalizationProvider` and `DateAdapter` with [Moment.js](https://momentjs.com/)
+* Fake APIs calls for client-side testing using [Mirage](https://miragejs.com/)
+
+
+## Screenshot
+
+![Project Countdown](Screenshots/project-countdown.png)
 
 ## Available Scripts
 
-In the project directory, you can run:
+First, run `npm install` from your terminal to install the dependencies.
+
+Then, in the project directory run from your terminal:
 
 ### `npm start`
 
@@ -14,57 +40,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+## Getting Started with Create React App
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,19 @@
+.countdown-container,
+.countdown-remaining-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.countdown-container {
+    flex-direction: column;
+}
+
+.countdown-remaining-container {
+    flex-direction: row;
+}
+
+.countdown-pause-button {
+    width: 100px;
+    align-self: center;
+}

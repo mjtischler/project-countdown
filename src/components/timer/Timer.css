@@ -1,0 +1,15 @@
+.timer-container {
+    display: flex;
+    justify-content: center;
+}
+
+.timer-box {
+    width: 600px;
+}
+
+.timer-tooltip-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
